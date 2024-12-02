@@ -24,6 +24,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("onibus")
+@CrossOrigin(origins = "https://mapbus.azurewebsites.net")
 public class BusController {
 	
 	@Autowired
