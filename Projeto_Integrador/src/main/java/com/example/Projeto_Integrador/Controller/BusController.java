@@ -24,7 +24,6 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("onibus")
-@CrossOrigin(origins = "https://mapbus.netlify.app")
 public class BusController {
 	
 	@Autowired
